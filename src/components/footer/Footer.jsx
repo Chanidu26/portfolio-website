@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css';
-import { BsInstagram, BsLinkedin, BsMedium, BsGithub } from 'react-icons/bs'
+import { BsBehance, BsLinkedin, BsMedium, BsGithub } from 'react-icons/bs'
 import {FaXTwitter} from 'react-icons/fa6';
 
 const Footer = () => {
@@ -21,6 +21,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/chanidukarunarathna/"><BsLinkedin/></a>
         <a href='https://github.com/Chanidu26'><BsGithub/></a>
         <a href="https://medium.com/@chanidukarunarathna"><BsMedium/></a>
+        <a href="https://www.behance.net/chanidukarunarathna"><BsBehance/></a>
       </div>
 
       <div className="footer_copyright">

@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 3.5rem;
+    padding-top: 3rem;
     overflow: hidden;
 }
 
@@ -11,30 +11,17 @@ header {
     align-items: center;
 }
 
+
+/*-----------------------------------CTA---------------------------*/
 .cta {
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
 }
-.scroll_down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-}
-.me{
-    
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 0.1rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
-}
-.header_socials{
+
+/*----------------------------------------Header Socials-----------------------------------*/
+.header_socials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,15 +29,44 @@ header {
     position: absolute;
     left: 0;
     bottom: 3rem;
-
 }
-.header_socials::after{
+
+.header_socials::after {
     
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
 }
 
+/*------------------------------My Photo------------------------------*/
+.me{
+    /*background: linear-gradient(var(--color-primary));*/
+    width: 22rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 7rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 4rem 1rem 1 rem 1 rem;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.me:hover {
+
+    transform: scale(1.1);
+}
+
+/*------------------------------Scroll Down------------------------------*/
+.scroll_down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    font-weight: 300;
+    font-size: 0,9rem;
+}
+
+/*------------------------------------Media for Tabs-----------------------------------------------*/
 @media screen and (max-width: 1024px) {
     header{
         height: 100vh;
