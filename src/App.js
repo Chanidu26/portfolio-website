@@ -19,8 +19,8 @@ function App() {
         <About/>
         <Education/>
         <Projects/>
-        <Services/>
         <Blogs/>
+        <Services/>
         <Contact/>
         <Footer/>
          
