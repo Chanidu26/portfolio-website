@@ -8,6 +8,7 @@ import Services from './components/services/Services';
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Education from './components/education/Education';
+import Skills from './components/skills/Skills';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Navbar/>
         <About/>
         <Education/>
+        <Skills/>
         <Projects/>
         <Blogs/>
         <Services/>

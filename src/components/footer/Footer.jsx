@@ -1,7 +1,6 @@
 import React from 'react'
 import './footer.css';
 import { BsBehance, BsLinkedin, BsMedium, BsGithub } from 'react-icons/bs'
-import {FaXTwitter} from 'react-icons/fa6';
 
 const Footer = () => {
   return (
