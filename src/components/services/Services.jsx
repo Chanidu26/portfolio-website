@@ -13,13 +13,15 @@ const Services = () => {
 
           {/*Mobile App */}
           <div className="service_head">
-            <h3>Software Development</h3>
+            <h3>Web Development</h3>
           </div>
 
           <ul className='service_list'>
             <li>
               <BsCheck className= 'service_list-icon'/>
-              <p>Creating intuitive and cutting-edge mobile apps designed for both iOS and Android platforms.</p>
+              <p>Creating intuitive and cutting-edge Web applications.Iam providing full-stack Web development services.Iam Proficient with tech stacks of  
+               MERN and Java-Springboot.As a Programming languages I have experience of html css js Python java and C++
+              </p>
             </li>
           </ul>
         </article>
@@ -28,7 +30,7 @@ const Services = () => {
 
           {/*Wb developing Part */}
           <div className="service_head">
-            <h3>Content Writing</h3>
+            <h3>UI UX Design</h3>
           </div>
 
           <ul className='service_list'>
@@ -43,13 +45,13 @@ const Services = () => {
 
           {/*UI/UX */}
           <div className="service_head">
-            <h3>UI/UX and Graphic Design</h3>
+            <h3>Graphic Design</h3>
           </div>
 
           <ul className='service_list'>
             <li>
               <BsCheck className= 'service_list-icon'/>
-              <p>Blending imagination and understanding to design user experiences that flow effortlessly and user interfaces that captivate the eye, enhancing digital interactions and bringing joy to users.</p>
+              <p>Creating visually appealing and eye catching designs for your brand. I can create effective branding designs,social media graphics, logos,flyers and more.</p>
             </li>
           </ul>
         </article>
