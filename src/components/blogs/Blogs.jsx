@@ -49,7 +49,8 @@ const Blogs = () => {
         )
       })
     }
-    < a href='https://medium.com/@chanidukarunarathna'>Show More Blogs</a>
+    
+    <h5 style={{textAlign: 'center'}}><a href ='https://medium.com/@chanidukarunarathna'>Show More Blogs</a></h5>
      </div>
     </section>
   )
