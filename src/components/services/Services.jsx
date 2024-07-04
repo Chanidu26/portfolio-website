@@ -11,7 +11,7 @@ const Services = () => {
       <div className="container services_container">
         <article className='service'>
 
-          {/*Mobile App */}
+          
           <div className="service_head">
             <h3>Web Development</h3>
           </div>
@@ -28,7 +28,7 @@ const Services = () => {
 
         <article className='service'>
 
-          {/*Wb developing Part */}
+          
           <div className="service_head">
             <h3>UI UX Design</h3>
           </div>
@@ -36,14 +36,14 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <BsCheck className= 'service_list-icon'/>
-              <p>Transforming design concepts into responsive and user-friendly websites, using well-structured code to ensure seamless interactivity and optimal speed and efficiency.</p>
+              <p>Transforming design concepts into responsive and user-friendly websites, using well-structured code to ensure seamless interactivity and optimal speed and efficiency.Checkout my <a href='https://www.behance.net/chanidukarunarathna'>Behance</a> Portfolio</p>
             </li>
           </ul>
         </article>
 
         <article className='service'>
 
-          {/*UI/UX */}
+          
           <div className="service_head">
             <h3>Graphic Design</h3>
           </div>
@@ -51,7 +51,7 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <BsCheck className= 'service_list-icon'/>
-              <p>Creating visually appealing and eye catching designs for your brand. I can create effective branding designs,social media graphics, logos,flyers and more.</p>
+              <p>Creating visually appealing and eye catching designs for your brand. I can create effective branding designs,social media graphics,logos,flyers and more.Checkout my <a href='https://www.behance.net/chanidukarunarathna'>Behance</a> Portfolio</p>
             </li>
           </ul>
         </article>
