@@ -1,6 +1,9 @@
 import React from 'react'
 import './services.css';
 import {BsCheck} from 'react-icons/bs'
+import { FaPaintbrush } from "react-icons/fa6";
+import { MdScreenshot } from "react-icons/md";
+import { CgWebsite } from "react-icons/cg";
 
 const Services = () => {
   return (
@@ -13,7 +16,7 @@ const Services = () => {
 
           
           <div className="service_head">
-            <h3>Web Development</h3>
+            <h3>Web Development     <CgWebsite /></h3>
           </div>
 
           <ul className='service_list'>
@@ -30,7 +33,7 @@ const Services = () => {
 
           
           <div className="service_head">
-            <h3>UI UX Design</h3>
+            <h3>UI UX Design  <MdScreenshot /></h3>
           </div>
 
           <ul className='service_list'>
@@ -45,7 +48,7 @@ const Services = () => {
 
           
           <div className="service_head">
-            <h3>Graphic Design</h3>
+            <h3>Graphic Design   <FaPaintbrush /></h3>
           </div>
 
           <ul className='service_list'>
