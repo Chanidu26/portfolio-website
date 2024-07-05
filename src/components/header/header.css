@@ -14,7 +14,7 @@ header {
 
 /*-----------------------------------CTA---------------------------*/
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -23,12 +23,11 @@ header {
 /*----------------------------------------Header Socials-----------------------------------*/
 .header_socials {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 .header_socials::after {
@@ -44,7 +43,7 @@ header {
     width: 22rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 7rem;
+    margin-top: 5rem;
     border-radius: 1rem;
     overflow: hidden;
     padding: 4rem 1rem 1 rem 1 rem;
@@ -87,8 +86,9 @@ header {
         height: 100vh;
     }
 
-    .header_socials,
+    
     .scroll_down{
         display: none;
     }
+  
 }
