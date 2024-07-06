@@ -9,10 +9,11 @@ import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Education from './components/education/Education';
 import Skills from './components/skills/Skills';
+import { useEffect } from 'react';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
         
         <Header/>
         <Navbar/>

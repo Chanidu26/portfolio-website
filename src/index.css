@@ -25,8 +25,10 @@
     --container-width-sm: 90%;
 }
 
+
 html{
     scroll-behavior: smooth;
+   
 }
 
 ::-webkit-scrollbar{

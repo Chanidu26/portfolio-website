@@ -50,7 +50,7 @@ const Projects = () => {
             )
           })
         }
-        <a href ='https://github.com/Chanidu26'>Show More Projects</a>
+        <h5 style={{textAlign: 'center'}}><a href ='https://github.com/Chanidu26'>Show More Projects</a></h5>
       </div>
     </section>
   )
