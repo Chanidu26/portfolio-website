@@ -1,69 +1,29 @@
-.experience_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
-
-.experience_container > div {
-    background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-}
-
-.experience_container > div:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-}
-
-.experience_container > div h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
-}
-
-.experience_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
-}
-
-.experience_details {
+.icons-container {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
-}
-
-.experience_details-icon {
-    margin-top: 6px;
-    color: var(--color-primary);
-}
-
-/*------------------------------------Media for Tabs-----------------------------------------------*/
-@media screen and (max-width: 1024px) {
-    .experience_container {
-        grid-template-columns: 1fr;
-    }
-
-    .experience_container > div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-
-    .experience_content {
-        padding: 1rem;
-    }
-}
-
-/*------------------------------------Media for Mobiles-----------------------------------------------*/
-@media screen and (max-width: 600px) {
-    .experience_content {
-        padding: 1rem;
-    }
-
-    .experience_container > div {
-        width: 100%;
-        padding: 2rem 1rem;
-    }
-}
+    margin-top: 3rem;
+  }
+  
+  .tech-icon {
+    font-size: 4rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 4px solid #2d3748;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .tech-icon:hover {
+    transform: translateY(-10px);
+  }
+  
+  .cyan { color: #00bcd4; }
+  .green { color: #4caf50; }
+  .orange { color: #fb923c; }
+  .blue { color: #2196f3; }
+  .yellow { color: #ffeb3b; }
