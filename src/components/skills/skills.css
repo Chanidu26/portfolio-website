@@ -8,11 +8,11 @@
   }
   
   .tech-icon {
-    font-size: 2rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    font-size: 3rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     border: 1px solid var(--color-primary);
     border-radius: 1rem;
     transition: transform 0.3s ease;
