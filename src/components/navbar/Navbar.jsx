@@ -11,7 +11,7 @@ import { useState } from 'react';
 
 const Navbar = () => {
   const [active, setActive] = useState('#');
-
+  
   return (
     <nav>
       <a href="#" onClick = {() => setActive('#')} className={active === '#' ? 'active' : ''}><AiFillHome /></a>

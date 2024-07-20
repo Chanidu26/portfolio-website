@@ -9,12 +9,27 @@ import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Education from './components/education/Education';
 import Skills from './components/skills/Skills';
-import { useEffect } from 'react';
+import Loading from './components/loading/Loading';
+import { useEffect , useState } from 'react';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    // Simulate a data fetch or any initialization
+    const loadData = async () => {
+      // Simulate network request
+      await new Promise(resolve => setTimeout(resolve, 2000)); 
+      setLoading(false);
+    };
+
+    loadData();
+  }, []);
+
   return (
     <div className="App" >
-        
+      { loading ? (
+        <Loading/>) :(
+        <>
         <Header/>
         <Navbar/>
         <About/>
@@ -25,6 +40,9 @@ function App() {
         <Services/>
         <Contact/>
         <Footer/>
+        </>
+        )
+      }
          
     </div>
   );
