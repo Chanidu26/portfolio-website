@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p>
-          An <b>Undergraduate</b>, <b>Devloper</b>, <b>Graphic Designer</b> and <b>Technical Writer</b> passionate about solving problems with tech.
+          An <b>Undergraduate</b>, <b>Developer</b>, <b>Graphic Designer</b> and <b>Technical Writer</b> passionate about solving problems with tech.
           I am skilled with building exceptional <b>websites</b> and <b>mobile applications</b>, and currently i'm exploring the DevOps things and Development things.
           </p>
 

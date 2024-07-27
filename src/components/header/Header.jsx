@@ -5,6 +5,8 @@ import me from '../../assets/Header.jpg';
 import Socials from './Socials';
 import { FaAngleDoubleDown } from "react-icons/fa";
 
+
+
 const Header = () => {
   return (
     <header>

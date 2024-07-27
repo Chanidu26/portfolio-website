@@ -1,26 +1,8 @@
-import React, { useEffect, useRef } from "react";
-import {
-  RiReactjsLine,
-  RiNextjsFill
-} from "react-icons/ri";
-import { 
-  FaNodeJs, 
-  FaPython, 
-  FaJava, 
-  FaHtml5, 
-  FaCss3Alt, 
-  FaGitAlt 
-} from "react-icons/fa";
+
+import {RiReactjsLine,RiNextjsFill} from "react-icons/ri";
+import { FaNodeJs, FaPython, FaJava, FaHtml5, FaCss3Alt, FaGitAlt } from "react-icons/fa";
 import { BiLogoMongodb } from "react-icons/bi";
-import {
-  SiSpringboot, 
-  SiMysql, 
-  SiTensorflow, 
-  SiJupyter, 
-  SiPhp, 
-  SiXampp, 
-  SiTypescript 
-} from "react-icons/si";
+import {SiSpringboot, SiMysql, SiTensorflow, SiJupyter, SiPhp, SiXampp, SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import './skills.css'
 
