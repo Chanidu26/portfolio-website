@@ -38,6 +38,7 @@
     border: 1px solid transparent;
     border-radius: 2rem;
     padding: 2rem;
+    
 }
 
 .col-sm-4:hover {
@@ -47,7 +48,7 @@
 }
 
 .single-horizontal-timeline p {
-    color: #bbbcbe;
+    color: var(--color-primary);
     max-width: 335px;
 }
 

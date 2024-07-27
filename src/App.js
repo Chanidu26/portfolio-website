@@ -15,9 +15,7 @@ import { useEffect , useState } from 'react';
 function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    // Simulate a data fetch or any initialization
     const loadData = async () => {
-      // Simulate network request
       await new Promise(resolve => setTimeout(resolve, 2000)); 
       setLoading(false);
     };
