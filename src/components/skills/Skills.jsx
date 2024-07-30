@@ -5,6 +5,7 @@ import { BiLogoMongodb } from "react-icons/bi";
 import {SiSpringboot, SiMysql, SiTensorflow, SiJupyter, SiPhp, SiXampp, SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import './skills.css'
+import Logoslider  from "../Logoslider/Logoslider";
 
 const Skills = () => {
   return (
@@ -67,6 +68,8 @@ const Skills = () => {
           <SiXampp />
         </div>
       </div>
+
+      <Logoslider />
     </section>
   )
 }

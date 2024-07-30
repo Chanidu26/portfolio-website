@@ -16,14 +16,29 @@ const Services = () => {
 
           
           <div className="service_head">
-            <h3>Web Development     <CgWebsite /></h3>
+            <h3>FrontEndDevelopment     <CgWebsite /></h3>
           </div>
 
           <ul className='service_list'>
             <li>
-              <BsCheck className= 'service_list-icon'/>
-              <p>Creating intuitive and cutting-edge Web applications.Iam providing full-stack Web development services.Iam Proficient with tech stacks of  
-               MERN and Java-Springboot.As a Programming languages I have experience of html css js Python java and C++
+              <p>
+                <strong>Tools:</strong> HTML Css JavaScipt React Nextjs
+              </p>
+            </li>
+          </ul>
+        </article>
+
+        <article className='service'>
+
+          
+          <div className="service_head">
+            <h3>Backend Development     <CgWebsite /></h3>
+          </div>
+
+          <ul className='service_list'>
+            <li>
+              <p>
+                <strong>Tools:</strong> Express Node MongoDb Spring Java Python MySql
               </p>
             </li>
           </ul>
@@ -38,8 +53,8 @@ const Services = () => {
 
           <ul className='service_list'>
             <li>
-              <BsCheck className= 'service_list-icon'/>
-              <p>Transforming design concepts into responsive and user-friendly websites, using well-structured code to ensure seamless interactivity and optimal speed and efficiency.Checkout my <a href='https://www.behance.net/chanidukarunarathna'>Behance</a> Portfolio</p>
+              
+              <p><strong>Tools :</strong> Figma Canva | Checkout my <a href='https://www.behance.net/chanidukarunarathna'>Behance</a> Portfolio</p>
             </li>
           </ul>
         </article>
@@ -53,12 +68,41 @@ const Services = () => {
 
           <ul className='service_list'>
             <li>
-              <BsCheck className= 'service_list-icon'/>
-              <p>Creating visually appealing and eye catching designs for your brand. I can create effective branding designs,social media graphics,logos,flyers and more.Checkout my <a href='https://www.behance.net/chanidukarunarathna'>Behance</a> Portfolio</p>
+              
+              <p><strong>Tools:</strong> Photoshop Canva Illustrator.<br></br> Checkout my <a href='https://www.behance.net/chanidukarunarathna'>Behance</a> Portfolio</p>
             </li>
           </ul>
         </article>
-     
+
+        <article className='service'>
+
+          
+          <div className="service_head">
+            <h3>Mobile App Development  </h3>
+          </div>
+
+          <ul className='service_list'>
+            <li>
+              
+              <p> <strong>Tools :</strong> Android Studio Intellij IDEA Flutter React Native</p>
+            </li>
+          </ul>
+        </article>
+
+        <article className='service'>
+
+          
+          <div className="service_head">
+            <h3>DevOps </h3>
+          </div>
+
+          <ul className='service_list'>
+            <li>
+              <p> <strong>Tools :</strong> Git Github Docker Kubernetes AWS</p>
+            </li>
+          </ul>
+        </article>
+
       </div>
 
     </section>

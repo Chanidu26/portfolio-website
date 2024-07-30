@@ -6,22 +6,24 @@
 }
 
 .service {
-    background: var(--color-bg-variant);
+    
     border-radius: 2rem 2rem 2rem 2rem;
     border: 1px solid var(--color-primary);
     height: fit-content;
     transition: var(--transition);
+    
 }
 
 .service:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+    transform: scale(1.1);
+    
 }
 
 .service_head {
     background: var(--color-primary);
-    
     padding: 2rem;
     border-radius: 2rem 2rem 0 0;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1) ;
@@ -34,7 +36,7 @@
 }
 
 .service_list {
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -51,6 +53,10 @@
 .service_list p {
     font-size: 0.9rem;
 }
+.service_list a{
+    font-weight: bold;
+}
+
 
 /*------------------------------------Media for Tabs-----------------------------------------------*/
 @media screen and (max-width: 1024px) {

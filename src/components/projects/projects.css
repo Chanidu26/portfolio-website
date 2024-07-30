@@ -6,8 +6,8 @@
 
 .portfolio_item {
     background: var(--color-bg-variant);
-    padding: 1.3rem;
-    border-radius: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
     border: 1px solid transparent;
     transition: var(--transition);
 }
@@ -15,15 +15,17 @@
 .portfolio_item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
+    transform: scale(1.03);
 }
 
 .portfolio_item-image{
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     overflow: hidden;
 }
 
 .portfolio_item h3 {
     margin: 1.2rem 0 2rem;
+    
 }
 
 .portfolio_item-cta {
