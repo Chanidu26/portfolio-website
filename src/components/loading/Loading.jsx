@@ -6,7 +6,7 @@ import ScaleLoader from 'react-spinners/ScaleLoader'
 const Loading = () => {
     return (
         <div className="loading">
-            <ScaleLoader color="#3498db" />
+            <ScaleLoader color="#07253a" />
             
         </div>
     );
