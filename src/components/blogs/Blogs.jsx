@@ -23,7 +23,7 @@ const Blogs = () => {
     {
       id: 3,
       image: IMG3,
-      title: 'Mastering Object Oriented Programming Concepts',
+      title: 'Mastering OOP Concepts in Python',
       github: 'https://medium.com/@chanidukarunarathna/mastering-oop-concepts-in-python-88eb94e7ee38'
     },
      
