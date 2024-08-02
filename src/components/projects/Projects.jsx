@@ -42,7 +42,7 @@ const Projects = () => {
               <div className="portfolio_item-image">
                 <img src={image} alt={title} />
               </div>
-                <h3>{title}</h3>
+                <h4>{title}</h4>
                 <div className="portfolio_item-cta">
                   <a href={github} className='btn' target='_blank'>Github</a>
               </div>
