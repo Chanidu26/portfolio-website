@@ -23,7 +23,7 @@ const About = () => {
             <article className='about_card' >
               <FaAward className='about_icon' />
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
+              <small>1+ Years Working</small>
             </article>
 
             <article className='about_card' >
@@ -35,13 +35,13 @@ const About = () => {
             <article className='about_card' >
               <VscFolderLibrary className='about_icon' />
               <h5>Project</h5>
-              <small>20+ Completed</small>
+              <small>10+ Completed</small>
             </article>
           </div>
 
           <p>
-          An <b>Undergraduate</b>, <b>Developer</b>, <b>Graphic Designer</b> and <b>Technical Writer</b> passionate about solving problems with tech.
-          I am skilled with building exceptional <b>websites</b> and <b>mobile applications</b>, and currently i'm exploring the DevOps things and Development things.
+          An <b>Engineering Undergraduate</b>, <b>Developer</b>, <b>Graphic Designer</b> and <b>Technical Writer</b> passionate about solving problems.
+          I am skilled with building exceptional <b>websites</b> and <b>mobile applications.</b>, and currently i'm exploring the <b>DevOps</b> and <b>Cloud</b> Domain.
           </p>
 
           <a href='#projects' className='btn btn-primary'>My projects</a>
