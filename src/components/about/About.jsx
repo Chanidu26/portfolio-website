@@ -26,11 +26,6 @@ const About = () => {
               <small>1+ Years Working</small>
             </article>
 
-            <article className='about_card' >
-              <FiUsers className='about_icon' />
-              <h5>Clients</h5>
-              <small>Worldwide</small>
-            </article>
 
             <article className='about_card' >
               <VscFolderLibrary className='about_icon' />
