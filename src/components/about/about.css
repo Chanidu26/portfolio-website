@@ -64,6 +64,11 @@
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
+.about_content p b{
+    background: -webkit-linear-gradient(#1256aa, #0e3b58);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 /*------------------------------------Media for Tabs-----------------------------------------------*/
 @media screen and (max-width: 1024px) {
