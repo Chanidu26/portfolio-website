@@ -89,6 +89,11 @@ h1{
 .text-light {
     color: var(--color-light);
 }
+.text-light span{
+    background: -webkit-linear-gradient(#1256aa, #0e3b58);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 a {
     color: var(--color-primary);
