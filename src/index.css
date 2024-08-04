@@ -119,6 +119,7 @@ a:hover{
 .btn-primary {
     background: -webkit-linear-gradient(#1256aa, #0e3b58);
     color: white;
+    border: none;
 }
 
 img{
