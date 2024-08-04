@@ -140,12 +140,15 @@ img{
 }
 
 /*------------------------------------Media for Mobiles-----------------------------------------------*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .container {
         width: var(--container-width-sm);
     }
     
     section > h2 {
         margin-bottom: 2rem;
+    }
+    h1{
+        font-size: 2rem;
     }
 }
