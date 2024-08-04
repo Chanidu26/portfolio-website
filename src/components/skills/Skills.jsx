@@ -4,6 +4,14 @@ import { FaNodeJs, FaPython, FaJava, FaHtml5, FaCss3Alt, FaGitAlt } from "react-
 import { BiLogoMongodb } from "react-icons/bi";
 import {SiSpringboot, SiMysql, SiTensorflow, SiJupyter, SiPhp, SiXampp, SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa";
+import { SiAdobephotoshop } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
+import { SiKubernetes } from "react-icons/si";
+import { SiCplusplus } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
+import { FaJenkins } from "react-icons/fa";
+import { FaAws } from "react-icons/fa";
 import './skills.css'
 import Logoslider  from "../Logoslider/Logoslider";
 
@@ -66,6 +74,30 @@ const Skills = () => {
         </div>
         <div className="tech-icon orange">
           <SiXampp />
+        </div>
+        <div className="tech-icon black">
+          <FaGithub />
+        </div>
+        <div className="tech-icon cyan">
+          <SiAdobephotoshop />
+        </div>
+        <div className="tech-icon blue">
+          <FaDocker />
+        </div>
+        <div className="tech-icon cyan">
+          <SiKubernetes />
+        </div>
+        <div className="tech-icon cyan">
+          <SiCplusplus />
+        </div>
+        <div className="tech-icon blue">
+          <VscVscode />
+        </div>
+        <div className="tech-icon red ">
+          <FaJenkins />
+        </div>
+        <div className="tech-icon black">
+          <FaAws />
         </div>
       </div>
 

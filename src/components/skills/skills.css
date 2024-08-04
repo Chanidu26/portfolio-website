@@ -22,8 +22,10 @@
     transform: translateY(-10px);
   }
   
-  .cyan { color: #00bcd4; }
+  .cyan { color: #193285; }
   .green { color: #4caf50; }
   .orange { color: #fb923c; }
   .blue { color: #2196f3; }
   .yellow { color: #ffeb3b; }
+  .black {color : #000000;}
+  .red { color: #ff0000; }
