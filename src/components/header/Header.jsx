@@ -20,7 +20,7 @@ const Header = () => {
       <h5>Hello I'm</h5>
       <h1>Chanidu Karunarathna</h1>
       <h3 className="text-light">
-          I am a <span style={{ fontWeight: 'bold'}}>{text}</span><Cursor />
+          I am <span style={{ fontWeight: 'bold'}}>{text}</span><Cursor />
       </h3>
       <Socials/>
       <CTA/>

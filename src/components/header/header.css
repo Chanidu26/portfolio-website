@@ -14,7 +14,7 @@ header {
 
 /*-----------------------------------CTA---------------------------*/
 .cta {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -27,7 +27,7 @@ header {
     align-items: center;
     gap: 1.5rem;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .header_socials::after {

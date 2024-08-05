@@ -23,7 +23,7 @@
 }
 
 .service_head {
-    background: var(--color-primary);
+    background: -webkit-linear-gradient(#1256aa, #0e3b58);
     padding: 2rem;
     border-radius: 2rem 2rem 0 0;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1) ;
